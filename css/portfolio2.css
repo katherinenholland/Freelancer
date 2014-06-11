@@ -1,0 +1,113 @@
+body{
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+}
+
+
+
+header{
+	padding-top: 70px;
+	padding-bottom: 10px;
+	background-color: #18bc9c;
+	text-align: center;
+	position: block;
+	
+}
+
+a {
+	color: #ffffff;
+}
+
+a:hover {
+	color: #E54E45;
+}
+
+.topBar{
+	background-color: #403833;
+	}/*nav bar*/
+
+.name{
+	font-size: 80px;
+}
+
+.btn-social {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #F2F2EF;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.btn:focus .btn:active .btn.active {
+    outline: none;
+}
+
+.info{
+	padding: 20px;
+}
+
+.circular{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    display: block;
+    background: url("headshot.jpg");
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+
+}/*circular headshot*/
+
+.image {
+	margin-left: 20%;
+	
+}
+
+.navbar-default {
+  background-color: #403833;
+  border-color: transparent;
+}
+
+#about {
+	padding-top: 10px;
+	background-color: #18bc9c;
+}
+
+#portfolio{
+	padding-top: 70px;
+	color: #18bc9c;
+}
+
+#contact{
+	color: #18bc9c;
+}
+
+footer{
+	background-color: #18bc9c;
+}
+
+
+.scroll-top {
+    z-index: 1049;
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    width: 50px;
+    height: 50px;
+}
+
+.scroll-top .btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.scroll-top .btn:focus {
+    outline: #E54E45;
+}
+
